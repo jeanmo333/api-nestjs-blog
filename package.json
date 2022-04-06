@@ -30,7 +30,6 @@
     "db:migration:revert": "npx typeorm migration:revert"
   },
   "dependencies": {
-    "@hapi/joi": "^17.1.1",
     "@nestjs/common": "^7.0.0",
     "@nestjs/config": "^0.5.0",
     "@nestjs/core": "^7.0.0",
@@ -54,6 +53,7 @@
     "typeorm": "^0.2.25"
   },
   "devDependencies": {
+    "@hapi/joi": "^17.1.1",
     "@nestjs/cli": "^7.0.0",
     "@nestjs/mapped-types": "^1.0.1",
     "@nestjs/schematics": "^7.0.0",
